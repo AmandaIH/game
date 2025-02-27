@@ -1,0 +1,166 @@
+.fall {
+  animation: fall 3s infinite linear;
+}
+@keyframes fall {
+  from {
+    translate: 0 0;
+  }
+  to {
+    translate: 0 900%;
+  }
+}
+
+.fallpos1 {
+  top: -30%;
+  left: 10%;
+}
+.fallpos2 {
+  top: -30%;
+  left: 22%;
+}
+.fallpos3 {
+  top: -30%;
+  left: 38%;
+}
+.fallpos4 {
+  top: -30%;
+  left: 63%;
+}
+.fallpos5 {
+  top: -30%;
+  left: 45%;
+}
+.fallpos6 {
+  top: -30%;
+  left: 45%;
+}
+.fallpos7 {
+  top: -30%;
+  left: 51%;
+}
+.fallpos8 {
+  top: -30%;
+  left: 69%;
+}
+.fallpos9 {
+  top: -30%;
+  left: 71%;
+}
+.fallpos10 {
+  top: -30%;
+  left: 84%;
+}
+
+.delay1 {
+  animation-delay: 0s;
+}
+.delay2 {
+  animation-delay: 1s;
+}
+.delay3 {
+  animation-delay: 3s;
+}
+
+.speed1 {
+  animation-duration: 3.5s;
+}
+.speed2 {
+  animation-duration: 3s;
+}
+.speed3 {
+  animation-duration: 4s;
+}
+
+.swirl {
+  animation-name: swirl_kf;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+@keyframes swirl_kf {
+  0% {
+    rotate: 0;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+.fade {
+  animation-name: fade_kf;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+@keyframes fade_kf {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.forsvind {
+  animation: forsvind 2s 1 both;
+}
+
+@keyframes forsvind {
+  from {
+    opacity: 1;
+    rotate: 0deg;
+    scale: 1;
+  }
+  to {
+    opacity: 0;
+    rotate: 720deg;
+    scale: 0;
+  }
+}
+.frys {
+  animation-play-state: paused;
+}
+.pulse {
+  animation: pulse 1s both;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  25% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+
+  75% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+.timer {
+  animation-name: timer_kf;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes timer_kf {
+  0% {
+    clip-path: inset(0 0 0 0);
+  }
+  100% {
+    clip-path: inset(100% 0 0 0);
+  }
+}

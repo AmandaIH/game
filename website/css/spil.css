@@ -1,0 +1,314 @@
+#screen {
+  width: 100%;
+  aspect-ratio: 16/9;
+  position: relative;
+  overflow: hidden;
+  container-type: inline-size;
+}
+#game {
+  width: 100%;
+  aspect-ratio: 16/9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+#game_background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../img/background.svg");
+  background-size: cover;
+}
+#game_elements {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#karaage_container {
+  width: 11%;
+  aspect-ratio: 95/73;
+  position: absolute;
+}
+#karaage_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/karaage.svg");
+  background-size: cover;
+}
+#gyoza_container {
+  width: 13%;
+  aspect-ratio: 2/1;
+  position: absolute;
+}
+#gyoza_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/gyoza.svg");
+  background-size: cover;
+}
+#rice_container {
+  width: 10%;
+  aspect-ratio: 10/11;
+  position: absolute;
+}
+#rice_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/rice.svg");
+  background-size: cover;
+}
+#sushi_container {
+  width: 14%;
+  aspect-ratio: 40/22;
+  position: absolute;
+}
+#sushi_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/sushi.svg");
+  background-size: cover;
+}
+
+#cupcake_container {
+  width: 9%;
+  aspect-ratio: 87/87;
+  position: absolute;
+}
+#cupcake_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/cupcake.svg");
+  background-size: cover;
+}
+#cake_container {
+  width: 9%;
+  aspect-ratio: 24/27;
+  position: absolute;
+}
+#cake_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/cake.svg");
+  background-size: cover;
+}
+#gummibear_container {
+  width: 7%;
+  aspect-ratio: 15/20;
+  position: absolute;
+}
+#gummibear_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/gummibear.svg");
+  background-size: cover;
+}
+#chocolate_container {
+  width: 9%;
+  aspect-ratio: 20/23;
+  position: absolute;
+}
+#chocolate_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/chocolate.svg");
+  background-size: cover;
+}
+
+#smileyhisashi_container {
+  width: 11%;
+  aspect-ratio: 174/283;
+  position: absolute;
+  top: 68%;
+  left: 3%;
+}
+#smileyhisashi_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/smileyhisashi_full.svg");
+  background-size: cover;
+}
+#mellemgrund {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../img/mellemgrund.svg");
+  background-size: cover;
+  pointer-events: none;
+}
+#game_foreground {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../img/foreground.svg");
+  pointer-events: none;
+}
+#game_ui {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+#timeglas {
+  width: 4%;
+  aspect-ratio: 120/160;
+  position: absolute;
+  top: 78%;
+  left: 83%;
+  background-image: url("../img/timeglas.svg");
+  background-size: cover;
+}
+
+#timeglas_sand {
+  position: absolute;
+  background-image: url(../img/timeglassand.svg);
+  background-size: cover;
+  width: 100%;
+  aspect-ratio: 120/160;
+  clip-path: inset(100% 0 0 0);
+}
+#lives {
+  width: 10%;
+  aspect-ratio: 600/200;
+  position: absolute;
+  top: 90%;
+  left: 85%;
+  background-image: url("../img/lives.svg");
+  background-size: cover;
+}
+#life {
+  font-size: 3cqw;
+  color: black;
+  width: 51%;
+  text-align: center;
+  position: absolute;
+  top: 1%;
+  left: 90%;
+}
+#picnic_basket {
+  width: 10%;
+  aspect-ratio: 2400/1500;
+  position: absolute;
+  top: 77%;
+  left: 88%;
+  background-image: url("../img/picnic_basket.svg");
+  background-size: cover;
+}
+#point {
+  font-size: 6cqw;
+  color: black;
+  width: 60%;
+  text-align: center;
+  position: absolute;
+  top: 8%;
+  left: 25%;
+}
+#point_gameover,
+#point_win {
+  font-size: 6cqw;
+  color: black;
+  width: 60%;
+  text-align: center;
+  position: absolute;
+  top: 49%;
+  left: 9%;
+}
+
+#start {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0;
+  background-image: url(../img/start_screen.svg);
+  background-size: cover;
+}
+#game_over {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/game_over.svg);
+  background-size: cover;
+}
+#level_complete {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/level_complete.svg);
+  background-size: cover;
+}
+#play {
+  position: absolute;
+  top: 84%;
+  left: 41%;
+  width: 18%;
+  aspect-ratio: 640/305;
+  background-image: url(../img/start_btn.svg);
+  background-size: cover;
+  cursor: pointer;
+}
+
+#soundOn {
+  background-image: url(../img/sound_on.svg);
+  background-size: cover;
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  width: 5%;
+  aspect-ratio: 23/22;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+#soundOff {
+  background-image: url(../img/sound_off.svg);
+  background-size: cover;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 5%;
+  aspect-ratio: 23/22;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+#spil_igen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 18%;
+  aspect-ratio: 862/232;
+  background-image: url(../img/try_again.svg);
+  background-size: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+#spil_igen2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 18%;
+  aspect-ratio: 862/232;
+  background-image: url(../img/try_again2.svg);
+  background-size: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.hide {
+  display: none;
+}

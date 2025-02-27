@@ -1,0 +1,99 @@
+header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+header {
+  background-color: red;
+  padding: 5px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+a:visited {
+  color: white;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+a:hover {
+  color: black;
+}
+#background {
+  background-image: url(../img/background_2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+img {
+  max-width: 100%;
+}
+h1 {
+  text-align: center;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+h2 {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: red;
+}
+h3 {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+#feed {
+  font-weight: bold;
+}
+h4 {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+p {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.introduction {
+  background-color: #41d2f2;
+  padding: 5%;
+  position: relative;
+}
+
+.beskrivelse {
+  background-color: black;
+  padding: 2%;
+}
+.beskrivelse p {
+  color: white;
+}
+#skitse {
+  width: 200px;
+}
+#overskrift {
+  color: red;
+}
+article {
+  border: solid #41d2f2;
+  padding: 2%;
+}
+/* #playhere {
+  position: absolute;
+  top: 87%;
+  left: 41%;
+  width: 18%;
+  aspect-ratio: 25/7;
+  background-image: url(../img/playhere.svg);
+  background-size: cover;
+  cursor: pointer;
+  z-index: 1;
+} */
